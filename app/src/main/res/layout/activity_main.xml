@@ -5,11 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#E5E5E5"
     tools:context=".MainActivity">
 
     <ListView
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
         android:id="@+id/storeListView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:divider="#E5E5E5"
+        android:dividerHeight="10dp"/>
 
 </LinearLayout>

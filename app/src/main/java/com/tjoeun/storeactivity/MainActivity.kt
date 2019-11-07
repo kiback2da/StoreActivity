@@ -22,12 +22,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun addDate(){
-        storeList.add(StoreDatas("1. 아스팔트 8: 에어본","GameLoaft"))
-        storeList.add(StoreDatas("2. Minecraft","Mojang"))
-        storeList.add(StoreDatas("3. 아스팔트 7: 히트","GameLoaft"))
-        storeList.add(StoreDatas("4. 팔라독","FazeCat"))
-        storeList.add(StoreDatas("5. Plants vs Zombie","EA Swiss Sari"))
-        storeList.add(StoreDatas("6. 스왐피","Disney"))
+        storeList.add(StoreDatas("1. 아스팔트 8: 에어본","GameLoaft", 4.0F))
+        storeList.add(StoreDatas("2. Minecraft","Mojang",4.5F))
+        storeList.add(StoreDatas("3. 아스팔트 7: 히트","GameLoaft",2.0F))
+        storeList.add(StoreDatas("4. 팔라독","FazeCat",1.0F))
+        storeList.add(StoreDatas("5. Plants vs Zombie","EA Swiss Sari",5.0F))
+        storeList.add(StoreDatas("6. 스왐피","Disney",2.5F))
 
     }
 }
